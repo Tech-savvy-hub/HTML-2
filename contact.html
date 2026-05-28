@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">home page</a>
+        </nav>
+    </header>
+
+    <main>
+            <h1>Get in touch</h1>
+
+            <form action="#" method="post">
+
+                <!-- text input -->
+                <div>
+                    <label for="Fullname">Full Name:</label> 
+                    <input type="text" id="Fullname" name="Fullname" placeholder="John doe" required>
+                </div> <br>
+                
+                 
+                <!-- email input -->
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="abaraka@gmail.com" required>
+                </div> <br>
+
+                <!-- password input -->
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="******" required>
+                </div> <br>
+
+                <!-- gender picking -->
+                <div>
+                    <label>Gender:</label>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </div> <br>
+
+                <!-- checkboxes -->
+                <div>
+                    <label> Hobbies: </label>
+
+                    <input type="checkbox" name="hobby" id="gaming" value="gaming">
+                    <label for="gaming">Gaming</label>
+
+                    <input type="checkbox" name="hobby" id="coding" value="coding">
+                    <label for="coding">Coding</label>
+
+                    <input type="checkbox" name="hobby" id="reading" value="reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" name="hobby" id="skating" value="skating">
+                    <label for="skating"> Skating</label>
+                </div> <br>
+
+                <!-- select food -->
+                <div>
+                    <label for="food">select food</label>
+
+                    <select name="food" id="food">
+                        <option value="">--Choose food--</option>
+                        <option value="jollofrice">Jollof Rice</option>
+                        <option value="friedrice">Fried Rice</option>
+                        <option value="plantain">Plantain</option>
+                        <option value="okpa">Okpa</option>
+                        <option value="beans">Beans</option>
+                    </select>
+                </div> <br>
+
+                <!-- textarea -->
+               <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="type your message here..." required></textarea>
+               </div> <br>
+
+                <!-- submit btn -->
+                <div>
+                    <input type="submit" value="Submit">
+                </div> <br>
+                
+            </form>
+    </main>
+
+    <footer><p>&copy; 2026 Mmesoma Odibo. All Rights Reserved.</p></footer>
+</body>
+</html>

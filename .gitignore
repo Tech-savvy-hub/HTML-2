@@ -1,0 +1,13 @@
+# OS generated files
+   .DS_Store
+   Thumbs.db
+
+   # Secrets and credentials
+   .env
+   *.pem
+   *.key
+
+   # Common build and log folders
+   *.log
+   dist/
+   build/
